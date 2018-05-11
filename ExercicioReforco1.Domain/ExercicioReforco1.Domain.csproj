@@ -43,6 +43,10 @@
     <Compile Include="Exceptions\BusinessException.cs" />
     <Compile Include="Features\Produtos\IProdutoRepository.cs" />
     <Compile Include="Features\Produtos\Produto.cs" />
+    <Compile Include="Features\Produtos\ProdutoDataValidadeMenorDataFabricacaoExcessao.cs" />
+    <Compile Include="Features\Produtos\ProdutoNomeNaoAtendidoMinimoCaracteres.cs" />
+    <Compile Include="Features\Produtos\ProdutoNomeNuloOuVazioExcessao.cs" />
+    <Compile Include="Features\Produtos\ProdutoPrecoCustoMaiorPrecoVendaExcessao.cs" />
     <Compile Include="Features\Vendas\IVendaRepository.cs" />
     <Compile Include="Features\Vendas\Venda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

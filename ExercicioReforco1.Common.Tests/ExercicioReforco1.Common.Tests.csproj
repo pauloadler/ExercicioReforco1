@@ -45,5 +45,11 @@
     <Compile Include="Features\Vendas\VendaObjectMother.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExercicioReforco1.Domain\ExercicioReforco1.Domain.csproj">
+      <Project>{243AFC59-B3C4-45DB-9FDC-1B0AFAA28C6B}</Project>
+      <Name>ExercicioReforco1.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
