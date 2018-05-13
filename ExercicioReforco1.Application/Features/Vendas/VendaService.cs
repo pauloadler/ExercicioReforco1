@@ -5,29 +5,36 @@ namespace ExercicioReforco1.Application.Features.Vendas
 {
     public class VendaService : IVendaService
     {
-        public Venda Add(Venda venda)
+        private IVendaRepository _vendaRepository;
+
+        public VendaService(IVendaRepository vendaRepository)
         {
-            throw new System.NotImplementedException();
+            _vendaRepository = vendaRepository;
         }
 
-        public void Delete(long id)
+        public Venda Add(Venda venda)
         {
-            throw new System.NotImplementedException();
+            return _vendaRepository.Save(venda);
+        }
+
+        public void Delete(Venda venda)
+        {
+            _vendaRepository.Delete(venda);
         }
 
         public Venda Get(long id)
         {
-            throw new System.NotImplementedException();
+            return _vendaRepository.Get(id);
         }
 
         public IList<Venda> GetAll()
         {
-            throw new System.NotImplementedException();
+            return _vendaRepository.GetAll();
         }
 
         public void Update(Venda venda)
         {
-            throw new System.NotImplementedException();
+            _vendaRepository.Update(venda);
         }
     }
 }
