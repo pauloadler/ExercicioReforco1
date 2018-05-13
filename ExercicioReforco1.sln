@@ -27,9 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioReforco1.Domain.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioReforco1.Infra.Data.Tests", "ExercicioReforco1.Infra.Data.Tests\ExercicioReforco1.Infra.Data.Tests.csproj", "{2F5954DA-0808-47C9-8D88-D15B5F06A789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioReforco1.Infra.Tests", "ExercicioReforco1.Infra.Tests\ExercicioReforco1.Infra.Tests.csproj", "{6E7D05A6-34FC-4C6C-AAF1-67FD6F3DB556}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioReforco1.Integration.Tests", "ExercicioReforco1.Integration.Tests\ExercicioReforco1.Integration.Tests.csproj", "{9369E058-2462-4BF3-9403-7DF91F3B9F2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioReforco1.System.Tests", "ExercicioReforco1.Integration.Tests\ExercicioReforco1.System.Tests.csproj", "{9369E058-2462-4BF3-9403-7DF91F3B9F2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,10 +67,6 @@ Global
 		{2F5954DA-0808-47C9-8D88-D15B5F06A789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F5954DA-0808-47C9-8D88-D15B5F06A789}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F5954DA-0808-47C9-8D88-D15B5F06A789}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6E7D05A6-34FC-4C6C-AAF1-67FD6F3DB556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E7D05A6-34FC-4C6C-AAF1-67FD6F3DB556}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E7D05A6-34FC-4C6C-AAF1-67FD6F3DB556}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E7D05A6-34FC-4C6C-AAF1-67FD6F3DB556}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9369E058-2462-4BF3-9403-7DF91F3B9F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9369E058-2462-4BF3-9403-7DF91F3B9F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9369E058-2462-4BF3-9403-7DF91F3B9F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -90,7 +84,6 @@ Global
 		{67587384-E7E6-42DC-9B07-A396AA935421} = {F7848CDF-81C6-4801-BCE1-3D6DC7EA2447}
 		{2FC9B525-0374-48CD-A2EC-8946F6CF0FFA} = {F7848CDF-81C6-4801-BCE1-3D6DC7EA2447}
 		{2F5954DA-0808-47C9-8D88-D15B5F06A789} = {F7848CDF-81C6-4801-BCE1-3D6DC7EA2447}
-		{6E7D05A6-34FC-4C6C-AAF1-67FD6F3DB556} = {F7848CDF-81C6-4801-BCE1-3D6DC7EA2447}
 		{9369E058-2462-4BF3-9403-7DF91F3B9F2C} = {F7848CDF-81C6-4801-BCE1-3D6DC7EA2447}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
