@@ -48,6 +48,9 @@
     <Compile Include="Features\Produtos\ProdutoNomeNuloOuVazioExcessao.cs" />
     <Compile Include="Features\Produtos\ProdutoPrecoCustoMaiorPrecoVendaExcessao.cs" />
     <Compile Include="Features\Vendas\IVendaRepository.cs" />
+    <Compile Include="Features\Vendas\ProdutoForaDaDataDeDisponibilidadeException.cs" />
+    <Compile Include="Features\Vendas\ProdutoSemDisponibilidadeException.cs" />
+    <Compile Include="Features\Vendas\QuantidadeZeroException.cs" />
     <Compile Include="Features\Vendas\Venda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
