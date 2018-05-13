@@ -5,29 +5,35 @@ namespace ExercicioReforco1.Application.Features.Produtos
 {
     public class ProdutoService : IProdutoService
     {
+        private IProdutoRepository _produtoRepository;
+
+        public ProdutoService(IProdutoRepository ProdutoRepository)
+        {
+            _produtoRepository = ProdutoRepository;
+        }
+
         public Produto Add(Produto produto)
         {
-            throw new System.NotImplementedException();
-        }
-
-        public void Delete(long id)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Produto Get(long id)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public IList<Produto> GetAll()
-        {
-            throw new System.NotImplementedException();
+            return _produtoRepository.Save(produto);
         }
 
         public void Update(Produto produto)
         {
-            throw new System.NotImplementedException();
+            _produtoRepository.Update(produto);
+        }
+        public Produto Get(long id)
+        {
+            return _produtoRepository.Get(id);
+        }
+
+        public IList<Produto> GetAll()
+        {
+            return _produtoRepository.GetAll();
+        }
+
+        public void Delete(Produto produto)
+        {
+            _produtoRepository.Delete(produto);
         }
     }
 }

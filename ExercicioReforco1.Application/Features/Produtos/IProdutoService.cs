@@ -13,6 +13,6 @@ namespace ExercicioReforco1.Application.Features.Produtos
 
         IList<Produto> GetAll();
 
-        void Delete(long id);
+        void Delete(Produto id);
     }
 }
