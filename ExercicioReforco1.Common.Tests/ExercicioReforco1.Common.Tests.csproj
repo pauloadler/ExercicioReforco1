@@ -50,6 +50,10 @@
       <Project>{243AFC59-B3C4-45DB-9FDC-1B0AFAA28C6B}</Project>
       <Name>ExercicioReforco1.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ExercicioReforco1.Infra\ExercicioReforco1.Infra.csproj">
+      <Project>{53EB673B-F152-4C75-8E7C-3FF378035EC7}</Project>
+      <Name>ExercicioReforco1.Infra</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
